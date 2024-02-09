@@ -8,7 +8,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 4px 10px;
-  background-color:antiquewhite;
+  color: darkblue;
   flex-wrap: wrap;
   overflow: hidden;
   
@@ -173,4 +173,9 @@ nav {
   @media screen and (max-width: 800px) {
     body {
       background-color: coral;
+    }}
+    /* On screens that are 400px or less, set the background color to coral */
+  @media screen and (max-width: 400px) {
+    body {
+      background-color: aquamarine;
     }}

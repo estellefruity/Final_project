@@ -13,7 +13,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 4px 10px;
-  background-color:antiquewhite;
+  color: darkblue;
   
 }
   nav h1 {
@@ -55,7 +55,7 @@ body::after {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: antiquewhite;
+  
 }
 
 section {
@@ -272,3 +272,8 @@ section {
       background-color: coral;
     }
   }
+    /* On screens that are 400px or less, set the background color to coral */
+    @media screen and (max-width: 400px) {
+      body {
+        background-color: aquamarine;
+      }}
