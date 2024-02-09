@@ -252,21 +252,22 @@ section {
 .myNav li a.active {
   background-color: #3786e1;
 }
+
   /* On screens that are 992px or less, set the background color to blue */
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1082px) {
     body {
-      background-color: blue;
+      background-color: lightblue;
     }
   }
   
-  /* On screens that are 600px or less, set the background color to olive */
-  @media screen and (max-width: 600px) {
+  /* On screens that are 932px or less, set the background color to olive */
+  @media screen and (max-width: 932px) {
     body {
       background-color: olive;
     }
   }
-  /* On screens that are 480px or less, set the background color to coral */
-  @media screen and (max-width: 480px) {
+  /* On screens that are 800px or less, set the background color to coral */
+  @media screen and (max-width: 800px) {
     body {
       background-color: coral;
     }
