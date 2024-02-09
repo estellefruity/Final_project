@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Form</title>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+</head>
+<body>
+    <section class="body">
+        <nav>
+            <h1>Temitope Adegbesan</h1>
+            <ul class="navigation">
+              <li><a href="index.html" class="nav-link">About</a></li>
+              <li><a href="#" class="nav-link">Projects</a></li>
+              <li><a href="#" class="nav-link">Skills</a></li>
+              <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+      </nav>
+        <div class="section-header">
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>Thank you for your interest in working with me. Please use the form below to send me a message.</p>
+          </div>
+        </div>
+
+        
+          <div class="container">
+            <form action="https://api.web3forms.com/submit" method="POST">            
+              <div class="contact-form">
+
+                    <input type="hidden" name="apikey" value="19196983-0073-45ad-a787-beeb00417539">
+
+                    <input type="hidden" name="redirect" value="https://estellefruity.github.io/Final_Project/success-page.html">
+
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <h2>Send Message</h2>
+                    <div class="input-box">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" placeholder="please enter your full name">
+                    </div>
+                
+                    <div class="input-box">
+                        <label for="email">Email:</label>
+                        <input type="email" required="true" name="email" placeholder="Please type in your email">
+                    </div>
+                
+                    <div class="input-box">
+                        <label for="message">Message:</label>
+                        <textarea required="true" name="message" placeholder="Type your message here....."></textarea>
+                    </div>
+                
+                    <div class="input-box">
+                        <input type="submit" value="Send" name="">
+                    </div>
+                    
+            </div>
+          </form>
+        </div>
+      </section>
+  
+</body>
+</html>

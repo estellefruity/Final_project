@@ -1,0 +1,173 @@
+nav {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 10px;
+  background-color:antiquewhite;
+  
+}
+  nav h1 {
+    color: #4756df;;
+  }
+  
+  nav a {
+    color: #4756df;;
+    transition: 0.3s;
+  }
+  nav a:hover {
+    color: coral;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 31px;
+  }
+  
+  nav ul li {
+    font-weight: 700;
+    list-style-type: none;
+  }
+
+  .abt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .img {
+    height: 420px;
+    width: 400px;
+    padding-top: 10px;
+  }
+  .intro {
+    width: 400px;
+    padding: 10px;
+    border-radius: 6px;
+    
+  }
+  
+  .intro h1 {
+    margin-bottom: 8px;
+  }
+  
+  .intro p {
+    line-height: 27px;
+    padding: 4.8px 0;
+  }
+  .about {
+    background-color: antiquewhite;
+    padding: 16px 96px;
+  }
+  
+  .about h2 {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .about p {
+    line-height: 27px;
+    padding: 6.4px;
+  }
+  .projects {
+    background-color: #fcfcfc;
+    padding: 32px 0;
+    margin-top: 32px;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 70%;
+  }
+  .project-pic:hover,
+  project-pic:focus{
+    width: 250px;
+  height: 250px;
+
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .diff{
+    color: coral;
+  }
+  .projects-title {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .project-container {
+    text-align: center;
+    width: 350px;
+    padding: 16px;
+  }
+  .project-container p {
+    padding: 6px;
+  }
+  
+  .project-title {
+    margin-bottom: 8px;
+  }
+  
+  .project-details {
+    margin-bottom: 8px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #8b8eaf;
+    padding: 20px;
+    margin: 10px;
+  }
+  .social-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    background-color: antiquewhite;
+  }
+  
+  .socicon {
+    color: antiquewhite;
+    width: 60px;
+    height: 65px;
+  }
+
+  footer {
+    background-color: #fcfcfc;
+    padding:20px;
+    text-align: right;
+    margin: 32px 0 0;
+  }
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+/* On screens that are 480px or less, set the background color to coral */
+@media screen and (max-width: 480px) {
+  body {
+    background-color: coral;
+  }
+}

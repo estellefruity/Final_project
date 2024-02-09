@@ -1,0 +1,111 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+  header {
+    background: #333;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  
+  .container {
+    width: 1030px;
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+  .card {
+    background: white;
+    padding: 280px;
+    margin: 0 auto;
+    text-align: center;
+        width: auto;
+        background: #EBF0F5;
+  }
+  i {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  
+
+.myNav {
+  display: block;
+  height: 50px;
+  line-height: 30px;
+  background-color: #2c4a50dc;
+}
+
+
+.myNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.myNav li {
+  float: left; 
+}
+
+
+.myNav li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+
+.myNav li a.active {
+  background-color: #3786e1;
+}
